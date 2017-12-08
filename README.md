@@ -1,12 +1,12 @@
 # ControlPi
 
-ControlPi is a lightweight Raspberry Pi 3 image for automation and control of AV/IT and Smart Home Systems.
+ControlPi is a Raspberry Pi 3 image for automation and control of AV/IT and Smart Home Systems.
 It is based on the Minibian image with tools like NodeRED pre-installed.
 
 ## Getting Started
 
-1. Download (and unzip if needed) the image here:
-  https://drive.google.com/file/d/1pvJX5tlXPAyqEBm5hWdl4LEmcw49MMo4/view?usp=sharing
+1. Download (and unzip if needed) the latest image here:
+  http://learnavprogramming.com/controlpi
 2. Burn controlpi.img to an SD card (with a tool like https://etcher.io ).
 3. Insert the SD card into a Raspberry Pi 3.
 4. Connect power to the Raspberry Pi.
