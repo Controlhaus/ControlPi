@@ -8,6 +8,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 ### Changed
 
+## [1.1.0]  - 2018-02-21
+### Added
+- Enabled Video Output
+- Added ControlPi Config running at startup on port 12345
+
+### Changed
+- Changed OS to Raspbian Stretch Lite
+
 ## [0.3.0]  - 2017-12-06
 ### Added
 - Set up LIRC to use GPIO-06 31 as an IR output and GPIO-05 29 as an IR input (IR input not tested).
