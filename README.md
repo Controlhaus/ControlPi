@@ -1,7 +1,7 @@
 # ControlPi
 
 ControlPi is a Raspberry Pi 3 image for automation and control of AV/IT and Smart Home Systems.
-It is based on the Minibian image with tools like NodeRED pre-installed.
+It is based on the Raspbian Stretch Lite image with tools like NodeRED pre-installed.
 
 ## Getting Started
 
