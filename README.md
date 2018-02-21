@@ -12,17 +12,18 @@ It is based on the Minibian image with tools like NodeRED pre-installed.
 4. Connect power to the Raspberry Pi.
 5. Connect the Raspberry Pi to a network with a DHCP server.
 6. Connect via SSH
-    ssh avprogrammer@controlpi
-    password takebackcontrol
+    ssh pi@raspberrypi
+    password raspberry
 7. Enter read write mode by entering:
     rw↵
 8. Change your password by entering:
     passwd↵
-9. Browse to controlpi:1880 and create your automation and control project with NodeRED.
+9. Browse to raspberrypi:1880 and create your automation and control project with NodeRED.
 10. When done editing your project, go back to the SSH window and enter read only mode by entering:
     ro↵
 11. Check out some of the tutorials and take control!
   https://learn.controlhaus.de/avit/controlpi-initial-release/
+12. To use ControlPi Config instead of SSH, browse to raspberrypi:12345
 
 ## Contributing
 Please post any issues or feature requests to this repository.
@@ -30,7 +31,6 @@ Your feedback is the best way to improve this project.
 
 ## Built With
 * [Raspbian](https://www.raspbian.org) - The operating system.
-* [Minibian](https://minibianpi.wordpress.com) - The starting Raspbian image.
 * [Raspi-config](https://www.raspberrypi.org/documentation/configuration/raspi-config.md) - Raspberry Pi configuration tool.
 * [GNU nano](https://en.wikipedia.org/wiki/GNU_nano) - Text editor.
 * [Sudo](https://en.wikipedia.org/wiki/Sudo) - Allows users to run programs as root.
