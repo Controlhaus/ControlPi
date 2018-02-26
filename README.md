@@ -6,7 +6,7 @@ It is based on the Raspbian Stretch Lite image with tools like NodeRED pre-insta
 ## Getting Started
 
 1. Download (and unzip if needed) the latest image here:
-  http://learnavprogramming.com/controlpi
+  http://learnavprogramming.com/controlpiimage
 2. Burn controlpi.img to an SD card (with a tool like https://etcher.io ).
 3. Insert the SD card into a Raspberry Pi 3.
 4. Connect power to the Raspberry Pi.
@@ -31,11 +31,7 @@ Your feedback is the best way to improve this project.
 
 ## Built With
 * [Raspbian](https://www.raspbian.org) - The operating system.
-* [Raspi-config](https://www.raspberrypi.org/documentation/configuration/raspi-config.md) - Raspberry Pi configuration tool.
-* [GNU nano](https://en.wikipedia.org/wiki/GNU_nano) - Text editor.
-* [Sudo](https://en.wikipedia.org/wiki/Sudo) - Allows users to run programs as root.
 * [Npm](https://github.com/npm/npm) - Node Package Manager.
-* [curl](https://curl.haxx.se) - Library and command-line tool for transferring data using various protocols.
 * [Node-RED](https://github.com/node-red/node-red) - A visual tool for wiring the Internet of Things.
 * [Node-RED Dashboard](https://github.com/node-red/node-red-dashboard) - A dashboard UI for Node-RED.
 * [RPi.GPIO](https://pypi.python.org/pypi/RPi.GPIO) - A module to control Raspberry Pi GPIO channels.
