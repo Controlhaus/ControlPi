@@ -6,7 +6,7 @@ It is based on the Raspbian Stretch Lite image with tools like NodeRED pre-insta
 ## Getting Started
 
 1. Download (and unzip if needed) the latest image here:
-  http://learnavprogramming.com/controlpiimage
+  https://s3.amazonaws.com/controlpi/controlpi_1.1.0.img.zip
 2. Burn controlpi.img to an SD card (with a tool like https://etcher.io ).
 3. Insert the SD card into a Raspberry Pi 3.
 4. Connect power to the Raspberry Pi.
