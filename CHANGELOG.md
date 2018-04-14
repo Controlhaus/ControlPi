@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
-## [Unreleased]  -
+## [1.2.0]  - 2018-04-14
 ### Added
 - NTP (to keep time in sync and avoid certificate issues)
 - dnsmasq (for using the Pi as a WAP)
@@ -13,8 +13,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 ### Changed
 - dist-upgrade
 - Upgraded Node-RED 
-
-## [1.2.0]  - 2018-04-16
 
 ## [1.1.0]  - 2018-02-21
 ### Added
