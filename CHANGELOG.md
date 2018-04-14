@@ -5,8 +5,16 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]  -
 ### Added
+- NTP (to keep time in sync and avoid certificate issues)
+- dnsmasq (for using the Pi as a WAP)
+- hostapd (for using the Pi as a WAP)
+- Wireless Access Point settings in ControlPi Config
 
 ### Changed
+- dist-upgrade
+- Upgraded Node-RED 
+
+## [1.2.0]  - 2018-04-16
 
 ## [1.1.0]  - 2018-02-21
 ### Added
