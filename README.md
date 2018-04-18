@@ -6,7 +6,7 @@ It is based on the Raspbian Stretch Lite image with tools like NodeRED pre-insta
 ## Getting Started
 
 1. Download (and unzip if needed) the latest image here:
-	https://s3.amazonaws.com/controlpi/controlpi-1.2.0.img.zip
+	https://s3.amazonaws.com/controlpi/ControlPi-1.3.0.img.zip
 2. Burn controlpi.img to an SD card (with a tool like https://etcher.io ).
 3. Insert the SD card into a Raspberry Pi 3.
 4. Connect power to the Raspberry Pi.
@@ -21,9 +21,11 @@ It is based on the Raspbian Stretch Lite image with tools like NodeRED pre-insta
 9. Browse to raspberrypi:1880 and create your automation and control project with NodeRED.
 10. When done editing your project, go back to the SSH window and enter read only mode by entering:
     ro↵
-11. Check out some of the tutorials and take control!
+11. To change the default web page shown on the HDMI output, use SSH to edit /home/pi/start.sh with:
+	nano start.sh
+12. Check out some of the tutorials and take control!
   https://learn.controlhaus.de/avit/controlpi-initial-release/
-12. To use ControlPi Config instead of SSH, browse to raspberrypi:12345
+13. To use ControlPi Config instead of SSH, browse to raspberrypi:12345
 
 ## Contributing
 Please post any issues or feature requests to this repository.
@@ -41,6 +43,7 @@ Your feedback is the best way to improve this project.
 ## Authors
 
 * **Patrick Murray** - [Controlhaus](https://github.com/Controlhaus)
+* **Matteo Mattei** - (http://www.matteomattei.com)
 
 ## License
 
