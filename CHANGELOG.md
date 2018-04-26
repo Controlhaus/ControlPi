@@ -3,11 +3,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
+## [1.4.0]  - 2018-04-26
+### Added
+- Catch Connect Client
+
+### Changed
+- Added Catch Connect Client settings to ControlPi Config
+
 ## [1.3.1]  - 2018-04-25
 ### Changed
 - dist-upgrade
 - updated npm to 6.0.0
-- Removed setting nodeRed nodes directory to /nodes in /home/pi/.node-red/settings.js
 
 ## [1.3.0]  - 2018-04-18
 ### Added
