@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
+## [1.4.1]  - 2018-04-27
+### Changed
+- Fixed bug so Catch Connect connects to server after changing the token withou needing to reboot.
+
 ## [1.4.0]  - 2018-04-26
 ### Added
 - Catch Connect Client
