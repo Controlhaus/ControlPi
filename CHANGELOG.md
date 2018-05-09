@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
+## [1.4.2]  - 2018-05-09
+### Changed
+- dist-upgrade
+- updated Catch Connect Client to fix bug that caused app to stop running if internet not reachable
+
 ## [1.4.1]  - 2018-04-27
 ### Changed
 - Fixed bug so Catch Connect connects to server after changing the token withou needing to reboot.
