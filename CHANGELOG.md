@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
+## [1.4.3]  - 2018-05-18
+### Changed
+- dist-upgrade
+- upgraded npm to 6.0.1
+- updated ControlPi Config to include expand file system size
+
 ## [1.4.2]  - 2018-05-09
 ### Changed
 - dist-upgrade
